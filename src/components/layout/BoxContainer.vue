@@ -65,9 +65,12 @@ fetchData();
 .container {
   position: relative;
   box-shadow: 0 0 4px 2px rgba(138, 138, 231, 0.568);
-  min-height: 7rem;
-  padding: 0.5rem;
-  margin-block: 1rem;
   background-color: #5c6172;
+  margin-block: 2rem;
+  padding: 1rem;
+}
+
+.container > * + * {
+  margin-top: 1.1em;
 }
 </style>

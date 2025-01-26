@@ -16,19 +16,19 @@ defineProps<{
 @import "../../style.css";
 
 .title {
-  font-size: var(--step-1);
+  font-size: var(--step-0);
 }
 
 .links {
   font-size: var(--step--0);
-  display: block;
-  padding-top: 3rem;
+  align-self: center;
 }
 
 .date {
-  position: absolute;
   font-size: var(--step--4);
+  padding-top: 0.5rem;
+  position: absolute;
   bottom: 2px;
-  right: 15px;
+  right: 5px;
 }
 </style>
