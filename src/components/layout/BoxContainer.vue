@@ -53,10 +53,21 @@ fetchData();
 </script>
 
 <template>
-  <div v-for="(items, index) in newsItems" :key="index">
+  <div v-for="(items, index) in newsItems" :key="index" class="container">
     <NewsBox :title="items.title" :url="items.url" :time="items.time" />
   </div>
   <button @click="fetchData" :disabled="isLoading">
     {{ isLoading ? "Loading..." : "Load More" }}
   </button>
 </template>
+
+<style lang="css" scoped>
+.container {
+  position: relative;
+  box-shadow: 0 0 4px 2px rgba(138, 138, 231, 0.568);
+  min-height: 7rem;
+  padding: 0.5rem;
+  margin-block: 1rem;
+  background-color: #5c6172;
+}
+</style>

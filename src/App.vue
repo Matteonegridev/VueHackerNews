@@ -4,7 +4,7 @@ import BoxContainer from "./components/layout/BoxContainer.vue";
 </script>
 
 <template>
-  <AppBody>
+  <AppBody class="news-container">
     <div>
       <h1>TechNews</h1>
     </div>
@@ -12,4 +12,9 @@ import BoxContainer from "./components/layout/BoxContainer.vue";
   </AppBody>
 </template>
 
-<style scoped></style>
+<style lang="css" scoped>
+.news-container {
+  text-align: center;
+  padding-inline: 2rem;
+}
+</style>
