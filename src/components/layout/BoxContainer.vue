@@ -1,5 +1,3 @@
-<!--todo Inserire la chiamata in questa sezione, e creare il v-for per i box -->
-
 <script setup lang="ts">
 import NewsBox from "./NewsBox.vue";
 import { ref } from "vue";

@@ -15,6 +15,6 @@ import BoxContainer from "./components/layout/BoxContainer.vue";
 <style lang="css" scoped>
 .news-container {
   text-align: center;
-  padding-inline: 2rem;
+  padding-inline: 3rem;
 }
 </style>
